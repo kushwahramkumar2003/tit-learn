@@ -2,7 +2,7 @@
   "name": "TIT-Learn",
   "private": true,
   "scripts": {
-    "build": "turbo build",
+    "build": "cd packages/db && npm run build && cd .. && cd .. && turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "lint:fix": "turbo lint:fix",
