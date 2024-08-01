@@ -14,7 +14,7 @@ import { Codebar } from "../components/code/Codebar";
 export const BlogAppbar = ({
   problem,
   track,
-  problemIndex
+  problemIndex,
 }: {
   problem: Problem & { notionRecordMap: any } & {
     problemStatement?:
@@ -25,7 +25,7 @@ export const BlogAppbar = ({
       | null;
   };
   track: Track & { problems: Problem[] };
-  problemIndex: number
+  problemIndex: number;
 }) => {
   let totalPages = Array.from({ length: track.problems.length }, (_, i) => i + 1);
 
@@ -101,7 +101,7 @@ export const BlogAppbar = ({
     >
       <div className="w-full flex flex-col items-center md:flex-row md:items-center md:justify-between mr-2">
         <div className="dark:text-zinc-100 text-zinc-950 font-semibold text-3xl mb-2 md:mb-0">
-          <Link href={"/"}>TIT-Learn</Link>
+          <Link href={"/"}>TechnoCode Clash</Link>
         </div>
 
         <p className="flex-1 justify-center items-center font-medium ml-2 hidden md:flex">

@@ -18,7 +18,7 @@ export const Appbar = ({ tracks }: { tracks?: (Track & { problems: Problem[] })[
     <div className="bg-zinc-50 dark:bg-zinc-950 p-3 flex justify-center border-b shadow-md sticky top-0 z-50">
       <div className="max-w-screen-xl flex justify-between w-full">
         <Link href={"/"}>
-          <div className="dark:text-zinc-100 text-zinc-950 text-2xl font-semibold">TIT-Learn</div>
+          <div className="dark:text-zinc-100 text-zinc-950 text-2xl font-semibold">TechnoCode Clash</div>
         </Link>
         <div className="flex items-center gap-2">
           {tracks && <SearchDialog tracks={tracks} />}

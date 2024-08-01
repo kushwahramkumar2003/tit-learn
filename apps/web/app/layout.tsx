@@ -18,7 +18,7 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "TIT-Learn",
+  title: "TechnoCode Clash",
   description: "Code daily",
 };
 

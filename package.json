@@ -1,5 +1,5 @@
 {
-  "name": "TIT-Learn",
+  "name": "TechnoCode Clash",
   "private": true,
   "scripts": {
     "build": "cd packages/db && npm run build && cd .. && cd .. && turbo build",

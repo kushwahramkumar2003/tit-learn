@@ -5,7 +5,7 @@ import ProfileSidebar from "../../components/ProfileSidebar";
 import ProfileChilldren from "../../components/ProfileChildren";
 
 export const metadata: Metadata = {
-  title: "TIT-Learn",
+  title: "TechnoCode Clash",
   description: "Code daily",
 };
 
