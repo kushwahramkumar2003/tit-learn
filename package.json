@@ -1,8 +1,8 @@
 {
-  "name": "TechnoCode Clash",
+  "name": "techno-code-clash",
   "private": true,
   "scripts": {
-    "build": "cd packages/db && npm run build && cd .. && cd .. && turbo build",
+    "build": "yarn build",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "lint:fix": "turbo lint:fix",
